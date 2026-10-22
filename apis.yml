@@ -1,23 +1,86 @@
 aid: redox-limited
+
 name: Redox
-description: 'Redox is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Redox (Redox Ltd) is a chemical and ingredients distributor headquartered in Australia, supplying more than 1000 specialty and commodity products to customers in Australia, the USA, the UK, New Zealand, Malaysia and other markets. It serves food and beverage, personal care, human and animal health, crop protection, water treatment, coatings, plastics, mining and other industries. No public developer API, documentation or portal is published on redox.com.
+
 url: https://raw.githubusercontent.com/api-evangelist/redox-limited/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Chemicals
+- Distribution
+- Ingredients
+- Supply Chain
+- Australia
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://redox.com/wp-content/themes/redox/img/apple-touch-icon.png
+
 common:
+- type: WellKnown
+  url: well-known/redox-limited-well-known.yml
+- type: Hosts
+  url: hosts/redox-limited-hosts.yml
+- type: Vendors
+  url: vendors/redox-limited-vendors.yml
+- type: DomainSecurity
+  url: security/redox-limited-domain-security.yml
 - type: Website
   url: https://redox.com/
+- type: About
+  url: https://redox.com/about/
+- type: Contact
+  url: https://redox.com/contact/
+- type: Newsroom
+  url: https://redox.com/news/
+- type: InvestorRelations
+  url: https://redox.com/investor-centre/
+- type: Careers
+  url: https://redox.com/careers/
+- type: TermsOfService
+  url: https://redox.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://redox.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/redox/
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: redox.com identifies itself as Redox (Redox Ltd), a chemical and ingredients distributor; no developer portal, docs or API found on the site.
+  evidence:
+  - url: https://redox.com/
+    status: 200
+  - url: https://redox.com/about/corporate/
+    status: 200
+  - url: https://redox.com/investor-centre/
+    status: 200
+  - url: https://redox.com/.well-known/security.txt
+    status: 404
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

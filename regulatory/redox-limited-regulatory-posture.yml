@@ -1,0 +1,84 @@
+generated: '2026-10-22'
+method: searched
+source: https://redox.com/privacy-policy/
+notes: >-
+  Redox Ltd (ASX: RDX) is an Australian chemical, ingredient and raw-material distributor. It has no developer
+  platform. The signals below come from its corporate Privacy Policy (which includes a UK/EU GDPR section and a
+  Cookies Policy). Its Terms & Conditions page (https://redox.com/terms-conditions/, HTTP 200) says nothing on
+  these signals. The policy names categories of service providers but publishes no subprocessor list, makes no
+  AI, incident-notification or accessibility statement, and mentions Do Not Track only as a browser setting,
+  with no commitment to honour it or Global Privacy Control. Those signals are therefore left out.
+signals:
+  data_subject_request:
+    url: https://redox.com/privacy-policy/
+    section: Your data subject rights
+    stated_sla: within one month of receipt of your request (UK/EU)
+    rights_named: [access, correction, complaint, erasure (UK/EU), restriction of processing (UK/EU), objection (UK/EU), data portability (UK/EU)]
+    escalation: UK Information Commissioner's Office, or the National Data Protection Authority of the EU member state
+    evidence:
+    - source: https://redox.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Access personal information we hold about you (and if we deny access in some circumstances, we will tell you why).
+    - source: https://redox.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        If you no longer require our services, you can request that we erase all your personal information from our personal information holding systems by submitting to us the right to erasure request form set out in this Policy at Annexure 2 below.
+    - source: https://redox.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        If you wish to exercise any of your data subject rights, you can contact us on the contact details provided in this Policy below. We will respond to you as soon as reasonably possible and in any event at least within one month of receipt of your request.
+    note: >-
+      Everyone gets access and correction rights. UK/EU data subjects also get erasure (through an Annexure 2
+      request form), restriction, objection and portability rights, with a stated response time of one month at most.
+  data_residency:
+    url: https://redox.com/privacy-policy/
+    section: International transfers of personal information
+    regions: [Australia, New Zealand, Malaysia, United States of America, Mexico, Canada]
+    evidence:
+    - source: https://redox.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Your personal information may be transmitted through, stored or processed in countries other than your home country, in which case the information is bound by the laws of these countries, which include Australia, New Zealand, Malaysia, the United States of America and Mexico.
+    - source: https://redox.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Redox may disclose information across jurisdictions where we operate, including Australia, New Zealand, Malaysia, USA, Mexico, Canada
+    note: >-
+      The policy names the countries where data may be stored or disclosed, and says transfers rely on
+      intra-group transfer agreements or equivalent-protection safeguards. It offers no customer-selectable
+      residency. One list includes Canada and the other does not.
+  data_retention:
+    url: https://redox.com/privacy-policy/
+    section: Retention of your personal information
+    stated_period: generally seven years after the customer or applicant relationship ends; otherwise as long as needed for the purpose
+    evidence:
+    - source: https://redox.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        In these instances, we will retain details of your application, transactional or customer information for as long as is required by law, which is generally seven years after you are no longer a customer of Redox or we have stopped interacting with you as an applicant.
+    - source: https://redox.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        We will retain personal information for as long as necessary to fulfill the purposes for which it was collected, comply with legal requirements, and protect our legitimate business interest.
+    note: The policy states a concrete default retention period of generally seven years for customer, transaction and applicant data.
+  subprocessors:
+    url: https://redox.com/privacy-policy/
+    section: Usual Disclosures
+    list_published: false
+    evidence:
+    - source: https://redox.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Third parties who provide services we use to run our business (such as external service providers that assist us to perform human resources, information technology and other shared services functions, that provide IT services or that provide security for our sites or systems);
+    note: >-
+      Disclosure to service providers is described by category only. No named subprocessor list is published.
+      The cookie section also names Google Analytics and social media platforms as third-party cookie partners.

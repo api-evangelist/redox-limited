@@ -1,0 +1,23 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/redox-limited/integrations
+- https://zapier.com/apps/redox/integrations
+- https://n8n.io/integrations/redox-limited/
+- https://composio.dev/toolkits/redox-limited
+- https://monid.ai/tools/redox-limited
+checked:
+- https://redox.com/
+- https://redox.com/sitemap_index.xml
+- https://composio.dev/toolkits/redox-limited
+- https://monid.ai/tools/redox-limited
+- https://n8n.io/integrations/redox-limited/
+- https://zapier.com/apps/redox-limited/integrations
+- https://zapier.com/apps/redox/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: Redox Ltd (redox.com) is a chemical distributor with no API, integrations page or marketplace listing found
+  on its site. Marketplace apps named "Redox" (e.g. on Zapier) belong to Redox Engine, an unrelated healthcare-integration
+  company, and are not recorded.

@@ -1,0 +1,26 @@
+name: Redox MCP Server
+type: MCPServer
+provider: Redox (Redox Ltd)
+generated: '2026-10-22'
+method: none
+status: none
+description: >-
+  No MCP server, hosted or local, is published by Redox (Redox Ltd), the Australian
+  chemical and ingredients distributor at redox.com. The company publishes no public
+  API or OpenAPI contract, so no candidate tool list can be derived. Do not confuse it
+  with Redox the healthcare integration platform (redoxengine.com), which is a different company.
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+tools: []
+evidence:
+- url: https://redox.com/.well-known/mcp.json
+  status: 404
+- url: https://redox.com/.well-known/mcp/server-card.json
+  status: 404
+- url: https://redox.com/llms.txt
+  status: 404
+- url: https://redox.com/AGENTS.md
+  status: 404
+- note: Web search on 2026-10-22 for a Redox Ltd MCP server or developer API found none. The only software it names is its internal Redebiz ERP/CRM, which has no published external interface.

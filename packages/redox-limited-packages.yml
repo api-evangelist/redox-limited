@@ -1,0 +1,12 @@
+generated: '2026-10-22'
+method: none
+name: Redox packages
+note: Redox Ltd (redox.com) is an Australian chemical and ingredients distributor and publishes no developer API, SDK or CLI. An npm search for "redox" returns packages such as @redox-opensource/redox-hl7-v2, which belong to Redox Engine (redoxengine.com), a different, unrelated US healthcare-integration company, so they are not recorded here. The redox.com homepage and sitemap_index.xml carry no developer, API, SDK or docs links.
+checked:
+- url: https://redox.com/
+  status: 200
+- url: https://redox.com/sitemap_index.xml
+  status: 200
+- url: https://registry.npmjs.org/-/v1/search?text=redox%20ltd&size=5
+  status: 200
+packages: []
